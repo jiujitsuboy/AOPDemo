@@ -8,11 +8,11 @@ This is simple App to record diary activities. An Activity is composes by:
 
 The app runs in port 8080 [App](http://localhost:8080/). It allows to create new diary entries.
 
-![new_entry](AOPDemo/Images/new_entry.png)
+![new_entry](Images/new_entry.png)
 
 List all the entries so far and the chance to edit or delete an activity.
 
-![all_entries](AOPDemo/Images/all_entries.png)
+![all_entries](Images/all_entries.png)
 
 ## Stack
 
@@ -32,15 +32,15 @@ Every operation in the app is logged to two different places:
 
 1. **History:** Record all the CRUD operations done over the diary entries.
 
-    ![history_table](AOPDemo/Images/history_table.png)
+    ![history_table](Images/history_table.png)
 
 2. **Statistics:** Count the modification operations performed,
 
-    ![statistic_table](AOPDemo/Images/statistic_table.png)
+    ![statistic_table](Images/statistic_table.png)
 
 These history and statistics operation can be seem in the [historyAndStatistics](historyAndStatistics) option.
 
-![history_statistic](AOPDemo/Images/history_statistic.png)
+![history_statistic](Images/history_statistic.png)
 
 ## Spring AOP Concepts
 
